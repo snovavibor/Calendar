@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DragonCalendar</title>
+    <link rel="stylesheet" href="css/dragonCalendarStyle.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="calendar-wrap">
+        <div class="controlPanel bg-info  d-flex justify-content-around bold text-up radius" id="calendar">
+            <p class="allow" id="back">&#9664;&#9664;</p>
+            <p id="nameMonth"></p>
+            <p class="allow" id="forward">&#9654;&#9654;</p>
+        </div>
+        <div class="wrap">
+            <div class='d-flex justify-content-around text-center bold'>
+                <div class='title-day height bg-danger radius'>ВС</div>
+                <div class='title-day height bg-warning radius'>ПН</div>
+                <div class='title-day height bg-warning radius'>ВТ</div>
+                <div class='title-day height bg-warning radius'>СР</div>
+                <div class='title-day height bg-warning radius'>ЧТ</div>
+                <div class='title-day height bg-warning radius'>ПТ</div>
+                <div class='title-day height bg-warning radius'>СБ</div>
+            </div>
+            <div class="days-field text-italic bold" id="days"></div>
+        </div>
+    </div>
+    </div>
+
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="js/dragonCalendarScript.js"></script>
+</body>
+
+</html>
